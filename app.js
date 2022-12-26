@@ -73,3 +73,26 @@
 //                     break
 // }
 
+---------
+
+// const grade = +prompt ("Please enter your grade")
+// const result =
+
+// grade >= 50
+// ?`you are succesful with $(grade)`
+// : `you are failed with $ (grade)`
+// console.log(result);
+
+
+// promt a bir sayi gireriz örnegin 50 den kücük ise  : sonraki durum gerceklesir ama 50 den büyük ise ? sonraki olay gerceklesir
+
+
+
+const gender = "male"
+const age = 20
+const healty = true
+const status = " teacher"
+
+age >= 18 && gender === "male" && healty === true && status   !== "student"
+? alert ("military service is requried")
+: alert ("military service is not requried")
