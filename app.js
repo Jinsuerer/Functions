@@ -18,14 +18,58 @@
 
 //? Ornek2: Console`den 2 sayi alarak bunlarin en büyügünü yazdiriniz
 
-const n1 = +promt ("1.sayiyi giriniz:");
-const n2 = +promt ("2.sayiyi giriniz:");
-const n3 = +promt ("3.sayiyi giriniz:");
+// const n1 = +promt ("1.sayiyi giriniz:");
+// const n2 = +promt ("2.sayiyi giriniz:");
+// const n3 = +promt ("3.sayiyi giriniz:");
 
-if (n1 >= n2 && n1 >= n3){
-    console.log(`${n1} is biggest`);
-}else if (n2 >= n1 && n2 >= n3){
-    console.log(`${n2} is biggest`);
-}else if (n3 >= n1 && n3 >= n2){
-    console.log(`${n3} is biggest`);
-}
+// 1. Yöntem
+
+// if (n1 >= n2 && n1 >= n3){
+//     console.log(`${n1} is biggest`);
+// }else if (n2 >= n1 && n2 >= n3){
+//     console.log(`${n2} is biggest`);
+// }else if (n3 >= n1 && n3 >= n2){
+//     console.log(`${n3} is biggest`);
+// }
+
+// 2.yöntem
+
+// let biggest = n1
+
+// if(n2 >= biggest){
+//     biggest =n2
+
+// }if(n3 >= biggest ){
+//     biggest = n3
+// }
+// console.log(`${biggest} is biggest`);
+
+// 3. Yöntem
+
+// console.log(`The Biggest : ${Math.max(n1, n2, n3)}`);
+// console.log(`The Biggest : ${Math.min(n1, n2, n3)}`);
+
+
+// Dört islemi yapacak bir duzen kurunuz
+
+// const s1 = Number(prompt("1.Sayiyi giriniz"))
+// const islem = (prompt("islemi giriniz: *, - , * , /"))
+// const s2 = Number(prompt("2.Sayiyi giriniz"))
+// let sonuc = 0
+// switch(islem){
+//     case "+":
+//         sonuc = s1 + s2
+//         break
+//         case "-":
+//             sonuc = s1 - s2
+//             break
+//             case "*":
+//                 sonuc = s1 * s2
+//                 break
+//                 case "/":
+//                     sonuc = s1 / s2
+//                     break
+//                     default("yanlis islem girdiniz")
+//                     break
+// }
+
