@@ -88,11 +88,12 @@
 
 
 
-const gender = "male"
-const age = 20
-const healty = true
-const status = " teacher"
+// const gender = "male"
+// const age = 20
+// const healty = true
+// const status = " teacher"
 
-age >= 18 && gender === "male" && healty === true && status   !== "student"
-? alert ("military service is requried")
-: alert ("military service is not requried")
+// age >= 18 && gender === "male" && healty === true && status   !== "student"
+// ? alert ("military service is requried")
+// : alert ("military service is not requried")
+
